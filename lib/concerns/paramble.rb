@@ -2,8 +2,11 @@ module Paramble
   
   module InstanceMethods
     
-    def paramble
-  
+    def to_param
+      
+      
+    end
+  end
   
   
   
