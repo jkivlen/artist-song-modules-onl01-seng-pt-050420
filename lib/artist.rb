@@ -18,6 +18,7 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
+  include Paramble::InstanceMethods
 
   def add_song(song)
     @songs << song
